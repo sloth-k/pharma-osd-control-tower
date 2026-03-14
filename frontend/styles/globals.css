@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-100 text-slate-900;
+  background-image:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(20, 184, 166, 0.12), transparent 22%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+a {
+  @apply text-inherit no-underline;
+}
+
+.panel {
+  @apply rounded-3xl border border-white/70 bg-white/85 p-5 shadow-panel backdrop-blur;
+}
+
+.metric-pill-green {
+  @apply bg-emerald-100 text-emerald-700;
+}
+
+.metric-pill-amber {
+  @apply bg-amber-100 text-amber-700;
+}
+
+.metric-pill-red {
+  @apply bg-rose-100 text-rose-700;
+}

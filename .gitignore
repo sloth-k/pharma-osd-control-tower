@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+pharma_control_tower.db
+backend/pharma_control_tower.db
+frontend/node_modules/
+frontend/.next/
+frontend/package-lock.json
+.DS_Store
