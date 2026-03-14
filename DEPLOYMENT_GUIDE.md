@@ -35,7 +35,7 @@ Render will use:
 - Start command: `uvicorn backend.main:app --host 0.0.0.0 --port $PORT`
 - Health check: `/health`
 
-The repo also pins Python in `runtime.txt` so Render uses Python 3.11 instead of a newer default version that may break package installs.
+The repo pins Python in `.python-version` so Render uses Python 3.11 instead of the newer default Python 3.14.x that may break package installs.
 
 ## Frontend Settings
 
